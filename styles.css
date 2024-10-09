@@ -1,13 +1,86 @@
 html{
     height: 100%;
 }
-
+header{
+    padding-bottom: 200px;
+    border-radius: 10px;
+    text-align: center;
+    height: 60px;
+    
+}
 body{
-    background-color: black;
     background-image:url(colorful-composition-kid-puzzle_23-2147689860.avif); 
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #bff18e ;
+    background-position: center;  
+    
 }
+nav a {
+    text-align: center;
+    background-color: rgba(225, 235, 28, 0.936);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+    
+}
+nav{
+    height:50px;
+    text-align: center;
+}
+
+
+p{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+    color: red;
+}
+
+img{
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+}
+ h1,h2{
+    text-align: center;
+    font-size: 60px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ table{
+    text-align: center;
+    align-items: center;
+    
+}
+ tr:nth-child(even){
+background-color: rgb(186, 143, 226);
+ }
+
+ h4{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+ }
+
+ footer h3{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 25px;
+ }
+ footer ul{
+    color: rgb(127, 2, 244);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+ }
+
+
 /* tablet view*/
     @media (max-width:768px) {
         
@@ -15,6 +88,10 @@ body{
 margin-left: auto;
 margin-right: auto;
 width: 50%;
+min-width: 1024px;
+min-height: 500px;
+display: flex;
+flex-wrap: wrap;
 }
     }
 
@@ -54,36 +131,23 @@ footer{
     
     height: 400px;
 }
- h1{
-    text-align: center;
-    font-size: 60px;
-    color: blue;
-    font-family: Arial, Helvetica, sans-serif;
- }
+
 
  th{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: blue;
+    color: rgb(160, 50, 153);
  }
 nav a{
     font-size: 15px;
     color: blueviolet;
     text-decoration: none;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-table{
-    text-align: center;
-    align-items: center;
+    padding-left: 113px;
+    padding-right: 113px;
 }
 
-nav{
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.338);
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
+
+
 
 
 
