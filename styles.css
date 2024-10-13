@@ -1,19 +1,23 @@
+
+    /* for fiting the web page and be a full page for all different devices*/
+
 html{
     height: 100%;
 }
-
+    /*  for the header section and the logo*/
 header{
     padding-bottom: 200px;
     border-radius: 10px;
     text-align: center;
     height: 118px;
 }
-
+    /* the body and background color*/
 body{
     background-color: #d2f0f3 ;
     background-position: center;  
     
 }
+     /* navigation items*/
 nav{
     height:50px;
     text-align: center;
@@ -32,37 +36,33 @@ nav a {
     padding-right: 113px;
     
 }
+     /* hover effects on navigation items*/
 nav a:hover {
     background-color: white;
     height: 40px;
     text-align: center;
 }
-
+    /* main adjecments*/
 main{
     min-height: 300px;
     text-align: center;
     align-items: center;
 }
-
+    /* paragraph text styling*/
 p{
     color: rgb(240, 23, 110);
     font-size: 35px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
-
-h3{
-    color:rgb(220, 21, 61);
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-}
-
+ 
+    /* images position and radius*/
 img{
     align-items: center;
     text-align: center;
     border-radius: 25px;
 }
+   /* h1,h2,h4 styling*/
  h1,h2,h4{
     background-color: rgb(222, 187, 242);
     text-shadow: 6px 6px 6px #fff200;
@@ -74,6 +74,15 @@ img{
     padding-right: 113px;
     
  }
+   /* h3 styling*/
+h3{
+    color:rgb(220, 21, 61);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+    /* table text ,color ,and column and adjecments*/
  table{
     margin-left: auto;
     margin-right: auto;
@@ -85,6 +94,7 @@ img{
     
     
 }
+    /* tr , th , specific colors */
  tr:nth-child(even){
     background-color: rgb(212, 182, 240);
  }
@@ -93,7 +103,7 @@ img{
  }
 
 
-
+   /* activities class , flex box */
 .activities{
     display: flex;
     justify-content: center;
@@ -101,6 +111,11 @@ img{
     justify-content: space-between;
    
 }
+    /* footer*/
+  footer{
+    text-align: left;
+    height: 400px;
+} 
 
  footer h3{
     
@@ -109,6 +124,7 @@ img{
     text-align: left;
     font-size: 25px;
  }
+
  footer ul{
     color: rgb(80, 22, 133);
     font-family: Arial, Helvetica, sans-serif;
@@ -116,13 +132,10 @@ img{
     
  }
 
-footer{
-    text-align: left;
-    height: 400px;
-}
 
-/* tablet view*/
-@media (max-width:768px) {
+
+/* desktop view*/
+@media (min-width:901px) {
         
 .container{
 margin-left: auto;
@@ -139,7 +152,7 @@ height: 200px;
     }
 
 /* mobile view*/
-@media (max-width:400px) {
+@media (max-width:600px) {
         
     .container{
     margin-left: auto;
